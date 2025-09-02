@@ -1,0 +1,16 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.primary-button {
+  background-color: #26233B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
