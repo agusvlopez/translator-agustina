@@ -1,0 +1,97 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  color: #26233B;
+}
+
+.about-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-image img {
+  width: 100%;
+}
+
+.about-title-wrapper h2 {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 24px;
+}
+
+.about-description-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 0 24px;
+}
+
+.about-description-wrapper .about-title {
+  display: none;
+}
+
+.about-description-wrapper p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.about-inscription {
+  color: #5B5B5B;
+  font-weight: 600;
+}
+
+.about-cta-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-section {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0;
+  }
+
+  .about-content-wrapper {
+    flex-direction: row-reverse;     
+  }
+
+  .about-image {
+    flex: 1;
+    max-width: 637px;
+    max-height: 630px;
+  }
+
+  .about-title-wrapper h2 {
+    display: none;
+  }
+
+  .about-description-wrapper {
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 0;
+    width: 60%;
+  }
+
+  .about-description-wrapper .about-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .about-cta-button {
+    width: auto;
+  }
+}

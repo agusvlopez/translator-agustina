@@ -19,7 +19,6 @@ export function Navbar() {
   }
 
   return (
-    <header className="site-header">
       <nav className="navbar" aria-label="Navegación principal">
         <div className="logo-container">
           {/* LOGO */}
@@ -52,6 +51,5 @@ export function Navbar() {
           </button>
         </div>
       </nav>
-    </header>
   );
 }
