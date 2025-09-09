@@ -1,7 +1,7 @@
 import "./About.css";
 
 import { useTranslation, Trans } from "react-i18next";
-import { BaseButton } from "./BaseButton";
+import { BaseButton } from "../BaseButton";
 
 export function About() {
   const { t } = useTranslation();
