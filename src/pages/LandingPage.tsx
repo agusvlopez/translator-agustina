@@ -1,6 +1,7 @@
 import { Navbar } from '../components/Navbar';
-import { About } from '../components/About';
-import { Header } from '../components/Header';
+import { About } from '../components/sections/About';
+import { Header } from '../components/sections/Header';
+import { Quotation } from '../components/sections/Quotation';
 
 function LandingPage() {
   
@@ -12,7 +13,7 @@ function LandingPage() {
         <Header />
       </div>
       <About />
-
+      <Quotation />
   
     </div>
   );

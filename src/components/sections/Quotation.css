@@ -1,0 +1,136 @@
+.quotation-section {
+  padding: 60px 24px;
+  background-color: #26233B;
+  text-align: center;
+  margin: 20% 0;
+}
+
+.quotation-section h2 {
+  color: #FBFBFB;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-align: left;
+  line-height: 130%;
+}
+
+.quotation-section .quotation-description {
+  color: #BDE3E3;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: left;
+}
+
+.quotation-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quotation-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.quotation-button {
+  width: 100%;
+  background-color: #FBFBFB;
+  color: #26233B;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.quotation-button:hover {
+  background-color: #E0E0E0;
+} 
+
+.services-button {
+  width: 100%;
+  background-color: transparent;
+  color: #FBFBFB;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  transition: color 0.3s ease, color 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.services-button:hover {
+  color: #BDE3E3;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .quotation-section {
+    width: 962px;
+    border-radius: 20px;
+    margin: 140px auto;
+    padding: 0 20px 20px 0;
+  }
+
+  .quotation-content-wrapper {
+    max-width: 962px;
+    margin: 20px -20px 0;
+    padding: 40px 80px;
+    background-color: #FBFBFB;
+    border-radius: 20px;
+    border: #26233B solid 1px;
+
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .quotation-content-wrapper h2 {
+    color: #26233B;
+    font-size: 40px;
+  }
+
+  .quotation-content-wrapper .quotation-description {
+    color: #26233B;
+    font-size: 24px;
+    line-height: 150%;
+  }
+
+  .quotation-buttons .quotation-button {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #26233B;
+    color: #FBFBFB;
+  }
+
+  .quotation-buttons .quotation-button:hover {
+    background-color: #3C3754;
+  }
+
+  .quotation-buttons .services-button {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #26233B;
+  }
+
+  .quotation-buttons .services-button:hover {
+    color: #BDE3E3;
+  }
+}
