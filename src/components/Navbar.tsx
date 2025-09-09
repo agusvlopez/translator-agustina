@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 import "./Navbar.css"
-import { MenuIcon } from "./Icons/Menu.tsx";
-import { LogoIcon } from "./Icons/Logo.tsx";
+import { MenuIcon } from "./icons/Menu.tsx";
+import { LogoIcon } from "./icons/Logo.tsx";
 import { useState } from "react";
-import { CloseIcon } from "./Icons/Close.tsx";
+import { CloseIcon } from "./icons/Close.tsx";
 
 export function Navbar() {
   const { t, i18n } = useTranslation();
