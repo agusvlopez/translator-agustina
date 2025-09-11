@@ -28,7 +28,7 @@ export function Quotation() {
           <a href="" className="services-button">
             Ver servicios 
             <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 24L20 16L12 8" stroke="currentcolor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 24L20 16L12 8" stroke="currentcolor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </a>
         </div>

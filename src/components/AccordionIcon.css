@@ -1,0 +1,9 @@
+.accordion-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 21px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+}

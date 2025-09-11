@@ -1,0 +1,11 @@
+.questions-section {
+  padding: 0 24px 24px 24px;
+  background-color: #f9f9f9;
+}
+
+.questions-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #26233B;
+}
