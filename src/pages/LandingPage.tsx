@@ -11,7 +11,9 @@ function LandingPage() {
     <div className="landing-page">
       {/* Selector de idioma */}
       <div className="header-container">
-        <Navbar />
+        <div className="navbar-container">
+          <Navbar />
+        </div>
         <Header />
       </div>
       <About />

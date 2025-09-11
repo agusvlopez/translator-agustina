@@ -50,6 +50,7 @@ h1 {
     justify-content: center;
     text-align: center;
     gap: 24px;
+    padding-bottom: 0;
   }
 
   h1, .header-title {

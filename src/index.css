@@ -11,13 +11,23 @@ html {
 
 body {
   background-color: #FBFBFB;
+  padding-top: 84px;
 }
 
 .header-container {
   height: 70vh;
   margin-bottom: 40%;
 }
-
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #fbfbfb;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 .primary-button {
   background-color: #26233B;
   color: white;
@@ -34,7 +44,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .header-container {
-    height: 100vh;
-    margin-bottom: 15%;
+    height: 90vh;
+    margin-bottom: 5%;
   }
 }

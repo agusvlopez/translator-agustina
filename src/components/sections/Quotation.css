@@ -103,7 +103,7 @@
 
   .quotation-section .quotation-content-wrapper .quotation-title {
     color: #26233B;
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 12px;
     margin-bottom: 0;
   }
@@ -116,7 +116,7 @@
   }
 
   .quotation-buttons .quotation-button {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
     background-color: #26233B;
@@ -128,7 +128,7 @@
   }
 
   .quotation-buttons .services-button {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
     color: #26233B;

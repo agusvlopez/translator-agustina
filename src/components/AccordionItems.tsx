@@ -41,8 +41,8 @@ export function AccordionItems() {
     const styles = {
     accordionWrapper: {
       backgroundColor: '#D7E5E3',
-      borderRadius: '16px',
-      boxShadow: '0 10px 25px -10px rgba(0, 0, 0, 0.14)',
+      borderRadius: '10px',
+      boxShadow: '0 10px 25px -10px rgba(0, 0, 0, 0.07)',
       overflow: 'hidden',
       border: '1px solid #e5e7eb'
     },
@@ -98,8 +98,8 @@ export function AccordionItems() {
     },
     accordionContentInner: {
       padding: '0 24px 16px 24px',
-      color: '#4b5563',
-      lineHeight: '1.625',
+      color: '#4d4d4dff',
+      lineHeight: '160%',
       backgroundColor: '#D7E5E3'
     }
   };

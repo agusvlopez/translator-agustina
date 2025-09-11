@@ -9,7 +9,7 @@
 .footer-social-media {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 }
 
 .footer-social-media .footer-social-media-item {
