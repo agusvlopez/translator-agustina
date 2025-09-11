@@ -15,7 +15,7 @@ export function Quotation() {
   return (
     <section id="price" className="quotation-section" aria-label="Sección de cotización">
       <div className="quotation-content-wrapper">
-        <h2>{t('quotation.title')}</h2>
+        <h2 className="quotation-title">{t('quotation.title')}</h2>
         <p className="quotation-description">{t('quotation.description')}</p>
         <div className="quotation-buttons">
           <a 
