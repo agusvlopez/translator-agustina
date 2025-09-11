@@ -65,7 +65,15 @@
 }
 
 .nav-item {
-  cursor: pointer;
+  color: #26233B;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-size: 18px;
+}
+
+.nav-item:hover {
+  color: #5B5B5B;
 }
 
 .menu-icon {

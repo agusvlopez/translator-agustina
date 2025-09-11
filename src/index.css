@@ -43,6 +43,10 @@ body {
 
 
 @media screen and (min-width: 1024px) {
+  body {
+    padding-top: 97px;
+  }
+  
   .header-container {
     height: 90vh;
     margin-bottom: 5%;

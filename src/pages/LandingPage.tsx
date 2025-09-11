@@ -1,4 +1,3 @@
-import { Navbar } from '../components/Navbar';
 import { About } from '../components/sections/About';
 import { Footer } from '../components/sections/Footer';
 import { Header } from '../components/sections/Header';
@@ -11,9 +10,6 @@ function LandingPage() {
     <div className="landing-page">
       {/* Selector de idioma */}
       <div className="header-container">
-        <div className="navbar-container">
-          <Navbar />
-        </div>
         <Header />
       </div>
       <About />

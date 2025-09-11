@@ -1,9 +1,11 @@
+import "./Navbar.css";
+
 import { useTranslation } from "react-i18next";
-import "./Navbar.css"
 import { MenuIcon } from "./icons/Menu.tsx";
 import { LogoIcon } from "./icons/Logo.tsx";
 import { useState } from "react";
 import { CloseIcon } from "./icons/Close.tsx";
+import { Link } from "react-router-dom";
 
 export function Navbar() {
   const { t, i18n } = useTranslation();
@@ -20,12 +22,12 @@ export function Navbar() {
 
   return (
       <nav className="navbar" aria-label="Navegación principal">
-        <div className="logo-container">
+        <Link to="/" className="logo-container">
           {/* LOGO */}
           <LogoIcon />
-        </div>
+        </Link>
         <div className={`nav-items ${isOpen ? 'open' : ''}`}>
-          <span>{t("nav.services")}</span>
+          <Link to="/services" className="nav-item">{t("nav.services")}</Link>
           <button className="primary-button">{t("nav.cta")}</button>
           <div className="language-selector">
               <button
