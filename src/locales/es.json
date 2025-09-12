@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "cta": "Recibí tu cotización"
+  },
+  "hero": {
+    "title": "Traductora pública",
+    "subtitle": "EN <> ES",
+    "description": "Traducciones precisas, confiables y a medida para empresas, personas individuales y estudios jurídicos."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Soy <1>traductora pública</1> con experiencia en el <1>ámbito corporativo</1> y en <1>entornos jurídicos</1>. Cuento con un amplio conocimiento en las leyes argentinas y anglosajonas, y me comprometo a entregar traducciones <1>fieles, precisas y de alta calidad.</1>",
+    "inscription": "Matrícula T° XXIV F° 182 CABA | Inscripción CTPCBA N° 9771"
+  },
+  "quotation": {
+    "title": "Traducciones fieles, precisas y de alta calidad.",
+    "description": "Contame qué necesitas traducir y te preparo una cotización rápida, hecha a tu medida.",
+    "button": "Recibí tu cotización gratis",
+    "email": {
+      "to": "agustinalopez.cm27@gmail.com",
+      "subject": "Solicitud de cotización",
+      "body": "Hola, me gustaría solicitar una cotización para..."
+    }
+  },
+  "questions": {
+    "title": "Preguntas frecuentes",
+    "q1": "¿Cómo se cotiza una traducción?",
+    "a1": "La cotización se establece de manera personalizada, a partir de un análisis detallado del documento original. Considero el idioma de origen y destino, el formato, el tipo de contenido y la calidad del archivo. No aplico tarifas automáticas: cada proyecto se evalúa individualmente para poder brindar un presupuesto ajustado a la complejidad real del trabajo.",
+    "q2": "¿Qué tipo de archivos puedo enviar?",
+    "a2": "Trabajo con archivos en formato .doc, .docx, .pdf, .jpg y .png, que son los más habituales para textos o imágenes escaneadas. Lo importante es que el contenido se pueda leer bien y que el archivo refleje con claridad el original. Si el archivo no puede visualizarse correctamente, me pondré en contacto para solicitar otra versión. Si tenés un archivo en otro formato, no dudes en contactarme para evaluar si es posible trabajarlo.",
+    "q3": "¿En cuánto tiempo recibo una respuesta?",
+    "a3": "Por lo general, vas a recibir la cotización dentro de las 24 a 48 horas hábiles desde que me envíes el documento. Si el archivo está en buen estado, el análisis es más ágil. Si necesito aclarar algo puntual,  te contactaré enseguida para resolverlo y evitar demoras. Mi compromiso es darte una respuesta rápida, sin dejar de lado la seriedad y el detalle que el trabajo requiere."
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Servicios de traducción profesional adaptados a distintos sectores y tipos de contenido.",
+    "description1": "¿Buscás un traductor autónomo que entregue resultados de calidad a tiempo?",
+    "description2": "No busques más: estoy acá para ayudarte a superar las barreras lingüísticas sin esfuerzo.",
+    "service1": {
+      "icon": "/images/icons/justice.webp",
+      "title": "Traducciones Públicas",
+      "description": "Estas traducciones llevan la firma y el sello del traductor público, lo que les otorga carácter auténtico y reconocimiento legal."
+    },
+    "service2": {
+      "icon": "/images/icons/web.webp",
+      "title": "Localización de sitios web",
+      "description": "La localización es la traducción y adaptación de un software o producto web, que incluye la propia aplicación de software y toda la documentación relacionada con el producto."
+    },
+    "service3": {
+      "icon": "/images/icons/pen.webp",
+      "title": "Redacción, corrección y posedición",
+      "description": "La redacción crea textos claros y efectivos; la corrección pule y mejora escritos ya existentes; y la posedición ajusta traducciones automáticas para garantizar precisión y naturalidad."
+    },
+    "service4": {
+      "icon": "/images/icons/negative.webp",
+      "title": "Subtitulado y traducción de guiones audiovisuales",
+      "description": "Consiste en adaptar el diálogo de una obra audiovisual al texto escrito en pantalla, respetando tiempos de lectura, espacio disponible y sentido original, para que el contenido sea accesible a más públicos."
+    },
+    "service5": {
+      "icon": "/images/icons/book.webp",
+      "title": "Traducción literaria y editorial",
+      "description": "La traducción literaria y editorial combina precisión y sensibilidad artística para recrear el estilo, la voz y las emociones del autor, acercando la obra al lector en otro idioma sin perder su esencia."
+    },
+    "modal": {
+      "cta": "Contactar"
+    }
+  },
+  "footer": {
+    "instagram": "@amtranslations",
+    "email": "@agustinamuniz48@gmail.com"
+  },
+  "cta": {
+    "services": "Ver mis servicios",
+    "quotation": "Recibí tu cotización"
+  }
+}

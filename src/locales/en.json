@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "services": "Services",
+    "cta": "Get your quote"
+  },
+  "hero": {
+    "title": "Translator",
+    "subtitle": "EN <> ES",
+    "description": "Accurate, confidential, and tailored translations for companies, individual clients, and law firms."
+  },
+  "about": {
+    "title": "About me",
+    "description": "",
+    "inscription": ""
+  },
+  "quotation": {
+    "title": "",
+    "description": ""
+  },
+  "questions": {
+    "title": "",
+    "q1": "",
+    "a1": "",
+    "q2": "",
+    "a2": "",
+    "q3": "",
+    "a3": ""
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "",
+    "description1": "",
+    "description2": "",
+    "service1": {
+      "icon": "/images/icons/justice.webp",
+      "title": "",
+      "description": ""
+    },
+    "service2": {
+      "icon": "/images/icons/web.webp",
+      "title": "",
+      "description": ""
+    },
+    "service3": {
+      "icon": "/images/icons/pen.webp",
+      "title": "",
+      "description": ""
+    },
+    "service4": {
+      "icon": "/images/icons/negative.webp",
+      "title": "",
+      "description": ""
+    },
+    "service5": {
+      "icon": "/images/icons/book.webp",
+      "title": "",
+      "description": ""
+    }
+  },
+  "footer": {
+    "instagram": "@amtranslations",
+    "email": "@agustinamuniz48@gmail.com"
+  },
+  "cta": {
+    "primary": "See services",
+    "secondary": "Get your free quote"
+  }
+}
