@@ -124,6 +124,12 @@
   padding-bottom: 10px;
 }
 
+.modal-content .modal-header .modal-title {
+  color: #26233B;
+  font-size: 22px;
+  font-weight: 600;
+}
+
 .modal-content .modal-header .modal-close-button {
   background-color: #FFFFFF;
   border: none;

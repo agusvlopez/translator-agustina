@@ -48,7 +48,7 @@ export function BaseCard({ icon, title, description }: BaseCardProps) {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             {/* Header del modal */}
             <div className="modal-header">
-              <h4 className="card-title">{title}</h4>
+              <h4 className="modal-title">{title}</h4>
               <button 
                 className="modal-close-button"
                 onClick={handleCloseModal}
