@@ -1,8 +1,9 @@
-import { useState } from 'react';
 import './BaseCard.css';
-import { BaseButton } from './BaseButton';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { getMailtoUrl } from '../utils/mailto.ts';
+
+import { BaseButton } from './BaseButton.tsx';
 
 interface BaseCardProps {
   icon?: string;

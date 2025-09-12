@@ -1,7 +1,7 @@
-import { About } from '../components/sections/About';
-import { Header } from '../components/sections/Header';
-import { Questions } from '../components/sections/Questions';
-import { Quotation } from '../components/sections/Quotation';
+import { About } from '../components/sections/About.tsx';
+import { Header } from '../components/sections/Header.tsx';
+import { Questions } from '../components/sections/Questions.tsx';
+import { Quotation } from '../components/sections/Quotation.tsx';
 
 function LandingPage() {
   

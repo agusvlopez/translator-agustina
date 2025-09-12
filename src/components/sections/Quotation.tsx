@@ -1,8 +1,9 @@
-import { useTranslation } from 'react-i18next';
 import './Quotation.css';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { getMailtoUrl } from '../../utils/mailto.ts';
-import { BaseButton } from '../BaseButton';
+
+import { BaseButton } from '../BaseButton.tsx';
 
 export function Quotation() {
   const { t } = useTranslation();

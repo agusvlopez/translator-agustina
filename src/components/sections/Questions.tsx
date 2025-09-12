@@ -1,6 +1,6 @@
 import './Questions.css';
 import { useTranslation } from 'react-i18next';
-import { AccordionItems } from '../AccordionItems';
+import { AccordionItems } from '../AccordionItems.tsx';
 
 export function Questions() {
   const { t } = useTranslation();

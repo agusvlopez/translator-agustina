@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import LandingPage from './pages/LandingPage';
-import { Navbar } from './components/Navbar';
-import { ServicesPage } from './pages/ServicesPage';
-import { Footer } from './components/sections/Footer';
+import LandingPage from './pages/LandingPage.tsx';
+import { Navbar } from './components/Navbar.tsx';
+import { ServicesPage } from './pages/ServicesPage.tsx';
+import { Footer } from './components/sections/Footer.tsx';
 
 function App() {
 

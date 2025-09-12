@@ -1,8 +1,9 @@
-import { useTranslation } from 'react-i18next';
 import './ServicesPage.css';
-import { BaseCard } from '../components/BaseCard';
-import { BaseButton } from '../components/BaseButton';
+import { useTranslation } from 'react-i18next';
 import { getMailtoUrl } from '../utils/mailto.ts';
+
+import { BaseCard } from '../components/BaseCard.tsx';
+import { BaseButton } from '../components/BaseButton.tsx';
 
 export function ServicesPage() {
   const { t } = useTranslation();
