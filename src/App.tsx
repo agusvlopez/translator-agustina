@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import { Navbar } from './components/Navbar';
 import { ServicesPage } from './pages/ServicesPage';
+import { Footer } from './components/sections/Footer';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/services" element={<ServicesPage />} />     
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }

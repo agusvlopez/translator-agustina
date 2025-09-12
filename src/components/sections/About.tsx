@@ -1,16 +1,11 @@
 import "./About.css";
 
 import { useTranslation, Trans } from "react-i18next";
-import { BaseButton } from "../BaseButton";
 import { Link } from "react-router-dom";
 
 export function About() {
   const { t } = useTranslation();
   
-  const handleCtaClick = () => {
-    //ir a la página de servicios
-  };
-
   return (
     <section className="about-section" aria-label="Sección sobre mí">
       <div className="about-title-wrapper">

@@ -1,9 +1,37 @@
 import './BaseButton.css';
 
-export function BaseButton({ className, children, onClick } : { className: string; children: React.ReactNode; onClick?: () => void }) {
+interface BaseButtonProps {
+  variant?: 'primary' | 'light';
+  className?: string;
+  children: React.ReactNode;
+  onClick?: () => void;
+  isMailto?: boolean;
+  mailtoUrl?: string;
+}
+
+export function BaseButton({ variant = 'primary', className, children, onClick, isMailto, mailtoUrl } : BaseButtonProps) {
+  const variantClasses = {
+    primary: "primary-button",
+    light: "light-button"
+  }
+
   return (
-    <button className={`${className} primary-button`} onClick={onClick}>
-      {children}
-    </button>
+    <>
+    {isMailto ? (
+      <a 
+        href={mailtoUrl} 
+        className={`${className} ${variantClasses[variant]}`} 
+        aria-label="Enviar correo para cotización"
+      >
+        {children}
+      </a>
+    )
+    :
+    (
+      <button className={`${className} ${variantClasses[variant]}`} onClick={onClick}>
+        {children}
+      </button> 
+    )}       
+    </>    
   );
 }

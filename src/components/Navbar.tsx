@@ -6,10 +6,13 @@ import { LogoIcon } from "./icons/Logo.tsx";
 import { useState } from "react";
 import { CloseIcon } from "./icons/Close.tsx";
 import { Link } from "react-router-dom";
+import { BaseButton } from "./BaseButton.tsx";
+import { getMailtoUrl } from "../utils/mailto.ts";
 
 export function Navbar() {
   const { t, i18n } = useTranslation();
-  
+  const mailtoUrl = getMailtoUrl(t);
+
   const [isOpen, setIsOpen] = useState(false);
   
   const changeLanguage = (lng: string) => {
@@ -28,7 +31,7 @@ export function Navbar() {
         </Link>
         <div className={`nav-items ${isOpen ? 'open' : ''}`}>
           <Link to="/services" className="nav-item">{t("nav.services")}</Link>
-          <button className="primary-button">{t("nav.cta")}</button>
+          <BaseButton isMailto mailtoUrl={mailtoUrl}>{t("nav.cta")}</BaseButton>
           <div className="language-selector">
               <button
                 onClick={() => changeLanguage('es')}

@@ -1,0 +1,120 @@
+.header {
+  background-image: url('/images/banner-services-mobile.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+}
+
+.header-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 0 24px;
+  gap: 16px;
+  padding: 48px 0;
+}
+
+.header-content h2 {
+  text-align: left;
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #BDE3E3;
+  letter-spacing: 1px;
+}
+
+.header-content p {
+  font-size: 18px;
+  color: #FBFBFB;
+  line-height: 140%;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+.services-section {
+  margin: 0 24px;
+}
+
+.intro-section {
+  margin: 48px 0px;
+}
+
+.intro-section h3 {
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 700;
+  color: #26233B;
+  margin-bottom: 16px;
+}
+
+.intro-section p {
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 600;
+  color: #5B5B5B;
+}
+
+.services-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 60px;
+}
+.services-section .quotation-button-container {
+  margin: 24px auto;
+}
+
+.services-section .quotation-button {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 18px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    background-image: url('/images/banner-services-desktop.webp');
+    background-size: cover;
+  }
+
+  .header-content {
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 0;
+  }
+    
+  .header-content h2 {
+    font-size: 64px;
+    letter-spacing: 2px;
+  }
+
+  .header-content p {
+    font-size: 24px;
+  }
+
+  .intro-section h3 {
+    margin-bottom: 4px;
+  }
+
+  .intro-section h3, .intro-section p {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .services-section .quotation-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .services-section .quotation-button {
+    max-width: 500px;
+  }
+
+}
