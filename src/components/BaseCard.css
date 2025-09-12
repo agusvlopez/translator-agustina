@@ -61,8 +61,8 @@
 }
 
 /* ===============================
-   ESTILOS DEL MODAL
-   =============================== */
+  ESTILOS DEL MODAL
+=============================== */
 
 .modal-overlay {
   position: fixed;
@@ -119,10 +119,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  border-bottom: #26233b44 1px solid;
+  padding-bottom: 10px;
+}
+
+.modal-content .modal-header .modal-close-button {
+  background-color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-content .modal-body {
-  border-bottom: #828282 1px solid;
+  border-bottom: #26233b44 1px solid;
   padding-bottom: 20px;
 }
 
@@ -132,13 +145,23 @@
   line-height: 150%;
 }
 
-.modal-footer .modal-action-button {
+.modal-footer {
+  padding-top: 10px;
+}
+
+.modal-footer .quotation-button {
   width: 100%;
-  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 1024px) {
   .card-icon {
     width: 26px;
+  }
+
+  .modal-footer .quotation-button {
+    font-size: 16px;  
   }
 }

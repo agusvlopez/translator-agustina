@@ -54,14 +54,8 @@ export function BaseCard({ icon, title, description }: BaseCardProps) {
                 onClick={handleCloseModal}
                 aria-label="Cerrar modal"
               >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <path 
-                    d="M18 6L6 18M6 6L18 18" 
-                    stroke="currentColor" 
-                    strokeWidth="2" 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round"
-                  />
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.66634 23.6667L0.333008 21.3334L9.66634 12L0.333008 2.66671L2.66634 0.333374L11.9997 9.66671L21.333 0.333374L23.6663 2.66671L14.333 12L23.6663 21.3334L21.333 23.6667L11.9997 14.3334L2.66634 23.6667Z" fill="#26233B"/>
                 </svg>
               </button>
             </div>
