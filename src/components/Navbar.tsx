@@ -1,10 +1,10 @@
 import "./Navbar.css";
 
 import { useTranslation } from "react-i18next";
-import { MenuIcon } from "./icons/Menu.tsx";
-import { LogoIcon } from "./icons/Logo.tsx";
+import { MenuIcon } from "./Icons/Menu.tsx";
+import { LogoIcon } from "./Icons/Logo.tsx";
 import { useState } from "react";
-import { CloseIcon } from "./icons/Close.tsx";
+import { CloseIcon } from "./Icons/Close.tsx";
 import { Link } from "react-router-dom";
 import { BaseButton } from "./BaseButton.tsx";
 import { getMailtoUrl } from "../utils/mailto.ts";

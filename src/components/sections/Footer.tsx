@@ -1,8 +1,8 @@
 import './Footer.css';
 
-import { EmailIcon } from '../icons/Email.tsx';
-import { InstagramIcon } from '../icons/Instagram.tsx';
-import { LogoLightIcon } from '../icons/LogoLight.tsx';
+import { EmailIcon } from '../Icons/Email';
+import { InstagramIcon } from '../Icons/Instagram';
+import { LogoLightIcon } from '../Icons/LogoLight';
 
 export function Footer() {
   return (
