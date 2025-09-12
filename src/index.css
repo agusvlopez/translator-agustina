@@ -16,8 +16,9 @@ body {
 
 .header-container {
   height: 70vh;
-  margin-bottom: 40%;
+  margin-bottom: 20%;
 }
+
 .navbar-container {
   position: fixed;
   top: 0;
@@ -28,6 +29,7 @@ body {
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 .primary-button {
   background-color: #26233B;
   color: white;

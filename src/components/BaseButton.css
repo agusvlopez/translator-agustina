@@ -10,7 +10,6 @@
   text-align: center;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
-  text-decoration: none;
 }
 
 .primary-button:hover {
@@ -21,18 +20,17 @@
   background-color: white;
   color: #26233B;
   border: #26233B 2px solid;
-  padding: 10px 20px;
+  padding: 14px 20px;
   border-radius: 10px;
   cursor: pointer;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
   text-align: center;
-  text-decoration: none;
 }
 
-.light-button:hover {
-  background-color: #26233b2f;
 
+a {
+  text-decoration: none;
 }

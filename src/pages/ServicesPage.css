@@ -67,6 +67,10 @@
 }
 .services-section .quotation-button-container {
   margin: 24px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services-section .quotation-button {
@@ -74,6 +78,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   padding: 18px;
+  width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
