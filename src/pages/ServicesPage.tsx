@@ -18,7 +18,7 @@ export function ServicesPage() {
   ];
 
   return (
-    <section>
+    <section className="services-page">
       <section className="header">
         <div className="header-content">
           <h2>{t('services.title')}</h2>

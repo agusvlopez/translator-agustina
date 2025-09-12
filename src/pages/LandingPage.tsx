@@ -7,7 +7,6 @@ function LandingPage() {
   
   return (
     <div className="landing-page">
-      {/* Selector de idioma */}
       <div className="header-container">
         <Header />
       </div>

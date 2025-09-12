@@ -59,9 +59,6 @@ export function AccordionItems() {
       transition: 'all 0.3s ease',
       border: 'none',
       cursor: 'pointer',
-      fontSize: '16px',
-      outline: 'none',
-      borderRadius: '16px'
     },
     accordionButtonActive: {
       backgroundColor: '#D7E5E3',
@@ -74,7 +71,7 @@ export function AccordionItems() {
       backgroundColor: '#D7E5E3'
     },
     accordionTitle: {
-      fontSize: '18px',
+      fontSize: '20px',
       fontWeight: '600',
       transition: 'color 0.3s ease',
     },
@@ -98,9 +95,10 @@ export function AccordionItems() {
     },
     accordionContentInner: {
       padding: '0 24px 16px 24px',
-      color: '#4d4d4dff',
+      color: '#494949ff',
       lineHeight: '160%',
-      backgroundColor: '#D7E5E3'
+      backgroundColor: '#D7E5E3',
+      fontSize: "18px"
     }
   };
 
