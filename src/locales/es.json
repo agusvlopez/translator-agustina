@@ -73,5 +73,9 @@
   "cta": {
     "services": "Ver mis servicios",
     "quotation": "Recibí tu cotización"
+  },
+  "whatsapp": {
+    "phone": "541134321998",
+    "message": "Hola, ¡quisiera hacer una consulta sobre tus servicios de traducción!"
   }
 }
