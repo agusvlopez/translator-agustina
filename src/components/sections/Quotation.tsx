@@ -1,6 +1,7 @@
 import './Quotation.css';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { motion } from 'motion/react';
 import { getMailtoUrl } from '../../utils/mailto.ts';
 
 import { BaseButton } from '../BaseButton.tsx';
@@ -10,11 +11,23 @@ export function Quotation() {
   const mailtoUrl = getMailtoUrl(t);
 
   return (
-    <section id="price" className="quotation-section" aria-label="Sección de cotización">
+    <motion.section 
+      id="price" 
+      className="quotation-section" 
+      aria-label="Sección de cotización"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="quotation-content-wrapper">
-        <h2 className="quotation-title">{t('quotation.title')}</h2>
-        <p className="quotation-description">{t('quotation.description')}</p>
-        <div className="quotation-buttons">
+        <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="quotation-title">
+          {t('quotation.title')}
+        </motion.h2>
+        <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }} className="quotation-description">
+          {t('quotation.description')}
+        </motion.p>
+        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="quotation-buttons">
           <BaseButton isMailto mailtoUrl={mailtoUrl} className="quotation-button" variant="light">{t('quotation.button')}</BaseButton>
           <Link to="/services" className="services-button" aria-label={t('cta.services')}>
             {t('cta.services')}
@@ -22,8 +35,8 @@ export function Quotation() {
               <path d="M12 24L20 16L12 8" stroke="currentcolor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </Link>
-        </div>
+        </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 }

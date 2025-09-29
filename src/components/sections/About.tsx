@@ -1,5 +1,6 @@
 import "./About.css";
 
+import { motion } from "motion/react";
 import { useTranslation, Trans } from "react-i18next";
 import { Link } from "react-router-dom";
 
@@ -7,7 +8,14 @@ export function About() {
   const { t } = useTranslation();
   
   return (
-    <section className="about-section" aria-label="Sección sobre mí">
+    <motion.section 
+      className="about-section" 
+      aria-label="Sección sobre mí"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+    >
       <div className="about-title-wrapper">
         <h2>{t('about.title')}</h2>
       </div>
@@ -15,9 +23,9 @@ export function About() {
         {/* <div className="about-image-wrapper">
            <AboutImage /> 
         </div> */}
-        <div className="about-image">
+        <motion.div className="about-image" initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, amount: 0.3 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}>
           <img src="/images/agustina-about.webp" alt="Agustina Muñiz" />
-        </div>
+        </motion.div>
         <div className="about-description-wrapper">
           <h2 className="about-title">{t('about.title')}</h2>
           <p>
@@ -32,6 +40,6 @@ export function About() {
           </Link>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
