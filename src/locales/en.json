@@ -4,57 +4,66 @@
     "cta": "Get your quote"
   },
   "hero": {
-    "title": "Translator",
+    "title": "Certified English Translator",
     "subtitle": "EN <> ES",
-    "description": "Accurate, confidential, and tailored translations for companies, individual clients, and law firms."
+    "description": "Accurate, confidential, and personalized translations for businesses, individuals, and law firms."
   },
   "about": {
     "title": "About me",
-    "description": "",
+    "description": "I am a certified translator with experience in corporate and legal settings. I have extensive knowledge of Argentine and Anglo-Saxon law and am committed to delivering faithful, accurate, and high-quality translations.",
     "inscription": ""
   },
   "quotation": {
-    "title": "",
-    "description": ""
+    "title": "Faithful, accurate, and high-quality translations.",
+    "description": "Tell me what you need to translate, and I'll prepare a quick, customized quote.",
+    "button": "Get your free quote",
+    "email": {
+      "to": "agustinalopez.cm27@gmail.com",
+      "subject": "Quote request",
+      "body": "Hello, I would like to request a quote for..."
+    }
   },
   "questions": {
-    "title": "",
-    "q1": "",
-    "a1": "",
-    "q2": "",
-    "a2": "",
-    "q3": "",
-    "a3": ""
+    "title": "FAQ",
+    "q1": "How is a translation quoted?",
+    "a1": "The quote is determined on a personalized basis, based on a detailed analysis of the original document. The things I take into account are: the source and target languages, format, content type, and file quality. I do not apply automatic rates: each project is evaluated individually to provide a quote tailored to the actual complexity of the work.",
+    "q2": "What types of files can I send?",
+    "a2": "I work with files in .doc, .docx, .pdf, .jpg, and .png formats, which are the most common for scanned text or images. The important thing is that the content is legible and that the file clearly reflects the original. If the file cannot be viewed correctly, I will contact you to request another version. If you have a file in another format, please feel free to contact me so I can evaluate whether it can be processed.",
+    "q3": "How long will it take to receive a response?",
+    "a3": "You'll typically receive a quote within 24 to 48 business hours of sending me the document. If the file is in good condition, the analysis is faster. If I need to clarify anything specific, I'll contact you immediately to resolve it and avoid delays. My commitment is to provide you with a prompt response, while maintaining the seriousness and attention to detail that the work requires."
   },
   "services": {
     "title": "Services",
-    "subtitle": "",
-    "description1": "",
-    "description2": "",
+    "subtitle": "Professional translation services for different sectors and types of content",
+    "description1": "Are you looking for a freelance translator who delivers quality results on time?",
+    "description2": "Look no further: I'm here to help you overcome language barriers effortlessly.",
     "service1": {
       "icon": "/images/icons/justice.webp",
-      "title": "",
-      "description": ""
+      "title": "Certified Translations",
+      "description": "These translations have the signature and seal of the certified translator, giving them authenticity and legal recognition."
     },
     "service2": {
       "icon": "/images/icons/web.webp",
-      "title": "",
-      "description": ""
+      "title": "Website Localization",
+      "description": "Localization is the translation and adaptation of a software or web product, which includes the software application itself and all product-related documentation."
     },
     "service3": {
       "icon": "/images/icons/pen.webp",
-      "title": "",
-      "description": ""
+      "title": "Writing, Proofreading, and Post-Editing",
+      "description": "Creation of clear and effective texts; proofreading services that polishes and improves existing writing; and post-editing that adjusts machine translations to ensure accuracy and naturalness."
     },
     "service4": {
       "icon": "/images/icons/negative.webp",
-      "title": "",
-      "description": ""
+      "title": "Subtitling and Translation of Audiovisual Scripts",
+      "description": "This involves adapting the dialogue of an audiovisual work to the written text on screen, respecting reading time, available space, and the original meaning, so that the content is accessible to a wider audience."
     },
     "service5": {
       "icon": "/images/icons/book.webp",
-      "title": "",
-      "description": ""
+      "title": "Literary and Editorial Translation",
+      "description": "Literary and editorial translation combines precision and artistic sensitivity to recreate the author's style, voice, and emotions, bringing the work closer to the reader in another language without losing its essence."
+    },
+    "modal": {
+      "cta": "Get your quote"
     }
   },
   "footer": {
@@ -62,7 +71,7 @@
     "email": "@agustinamuniz48@gmail.com"
   },
   "cta": {
-    "primary": "See services",
-    "secondary": "Get your free quote"
+    "services": "See services",
+    "quotation": "Get your free quote now!"
   }
 }
