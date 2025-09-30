@@ -6,40 +6,44 @@ import { Navbar } from './components/Navbar.tsx';
 import { ServicesPage } from './pages/ServicesPage.tsx';
 import { WhatsAppButton } from './components/WhatsAppButton.tsx';
 import { Footer } from './components/sections/Footer.tsx';
-import { Loader } from './Loader.tsx';
+import { Loader } from './components/Loader.tsx';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simula un tiempo de carga mínimo y espera a que la ventana esté completamente cargada
-    const handleLoad = () => {
+    const hideLoader = () => {
       setTimeout(() => {
         setIsLoading(false);
-      }, 500); // Un pequeño retardo para una transición más suave
+      }, 300);
     };
 
-    window.addEventListener('load', handleLoad);
-
-    return () => window.removeEventListener('load', handleLoad);
+    if (document.readyState === 'complete') {
+      hideLoader();
+    } else {
+      window.addEventListener('load', hideLoader);
+      return () => window.removeEventListener('load', hideLoader);
+    }
   }, []);
 
   return (
     <>
-      <AnimatePresence>
-        {isLoading && <Loader />}
+      <AnimatePresence mode="wait">
+        {isLoading && <Loader key="loader" />}
       </AnimatePresence>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/services" element={<ServicesPage />} />
-        </Routes>
-        <Footer />
-        <WhatsAppButton />
-      </BrowserRouter>
+      {!isLoading && (
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/services" element={<ServicesPage />} />
+          </Routes>
+          <Footer />
+          <WhatsAppButton />
+        </BrowserRouter>
+      )}
     </>
   )
 }
 
-export default App
+export default App;
