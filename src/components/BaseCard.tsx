@@ -39,7 +39,7 @@ export function BaseCard({ icon, title, description }: BaseCardProps) {
         <h4 className="card-title">{title}</h4>
         <p className="card-description">{description}</p>
       </div>
-      <span className="cta-button">Ver más</span>
+      <span className="cta-button">{t('services.card.cta')}</span>
     </div>
 
      {/* Modal */}

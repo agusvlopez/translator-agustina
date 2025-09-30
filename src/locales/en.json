@@ -64,6 +64,9 @@
     },
     "modal": {
       "cta": "Get your quote"
+    },
+    "card": {
+      "cta": "See more"
     }
   },
   "footer": {

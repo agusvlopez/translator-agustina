@@ -64,6 +64,9 @@
     },
     "modal": {
       "cta": "Recibí tu cotización"
+    },
+    "card": {
+      "cta": "Ver más"
     }
   },
   "footer": {
