@@ -11,7 +11,7 @@ html {
 
 body {
   background-color: #FBFBFB;
-  padding-top: 84px;
+  /* padding-top: 84px; */
 }
 
 .header-container {
@@ -45,7 +45,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   body {
-    padding-top: 88px;
+    /* padding-top: 88px; */
   }
   
   .header-container {

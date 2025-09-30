@@ -38,7 +38,7 @@ export function AccordionItems() {
     );
   };
 
-    const styles = {
+  const styles = {
     accordionWrapper: {
       backgroundColor: '#D7E5E3',
       borderRadius: '10px',
@@ -74,6 +74,7 @@ export function AccordionItems() {
       fontSize: '20px',
       fontWeight: '600',
       transition: 'color 0.3s ease',
+      flex: 1,
     },
     accordionTitleActive: {
       color: '#26233B'
