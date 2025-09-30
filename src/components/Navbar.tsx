@@ -17,21 +17,30 @@ export function Navbar() {
   
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
+    setIsOpen(false);
   }
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   }
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  }
+
   return (
       <nav className="navbar" aria-label="Navegación principal">
-        <Link to="/" className="logo-container">
+        <Link to="/" className="logo-container" onClick={closeMenu}>
           {/* LOGO */}
           <LogoIcon />
         </Link>
         <div className={`nav-items ${isOpen ? 'open' : ''}`}>
-          <Link to="/services" className="nav-item">{t("nav.services")}</Link>
-          <BaseButton isMailto mailtoUrl={mailtoUrl}>{t("nav.cta")}</BaseButton>
+          <Link to="/services" className="nav-item" onClick={closeMenu}>
+            {t("nav.services")}
+          </Link>
+          <BaseButton isMailto mailtoUrl={mailtoUrl}>
+            {t("nav.cta")}
+          </BaseButton>
           <div className="language-selector">
               <button
                 onClick={() => changeLanguage('es')}

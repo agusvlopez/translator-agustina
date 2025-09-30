@@ -4,6 +4,7 @@ import { motion } from 'motion/react';
 import { EmailIcon } from '../Icons/Email';
 import { InstagramIcon } from '../Icons/Instagram';
 import { LogoLightIcon } from '../Icons/LogoLight';
+import { t } from 'i18next';
 
 export function Footer() {
   return (
@@ -18,11 +19,11 @@ export function Footer() {
         {/* REDES */}
         <a href="mailto:agustinamuniz48@gmail.com" className="footer-social-media-item">
           <span className="icon"><EmailIcon /></span>
-          <span>agustinamuniz48@gmail.com</span>
+          <span>{t('footer.email')}</span>
         </a>
         <a href="https://www.instagram.com/amtranslations/" target='_blank' className="footer-social-media-item">
           <span className="icon"><InstagramIcon /></span>
-          <span>@amtranslations</span>
+          <span>{t('footer.instagram')}</span>
         </a>
       </motion.div>
       <div className="footer-logo">

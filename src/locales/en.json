@@ -18,7 +18,7 @@
     "description": "Tell me what you need to translate, and I'll prepare a quick, customized quote.",
     "button": "Get your free quote",
     "email": {
-      "to": "agustinalopez.cm27@gmail.com",
+      "to": "agustinamuniz48@gmail.com",
       "subject": "Quote request",
       "body": "Hello, I would like to request a quote for..."
     }
@@ -68,7 +68,7 @@
   },
   "footer": {
     "instagram": "@amtranslations",
-    "email": "@agustinamuniz48@gmail.com"
+    "email": "agustinamuniz48@gmail.com"
   },
   "cta": {
     "services": "See services",

@@ -18,7 +18,7 @@
     "description": "Contame qué necesitas traducir y te preparo una cotización rápida, hecha a tu medida.",
     "button": "Recibí tu cotización gratis",
     "email": {
-      "to": "agustinalopez.cm27@gmail.com",
+      "to": "agustinamuniz48@gmail.com",
       "subject": "Solicitud de cotización",
       "body": "Hola, me gustaría solicitar una cotización para..."
     }
@@ -68,7 +68,7 @@
   },
   "footer": {
     "instagram": "@amtranslations",
-    "email": "@agustinamuniz48@gmail.com"
+    "email": "agustinamuniz48@gmail.com"
   },
   "cta": {
     "services": "Ver mis servicios",

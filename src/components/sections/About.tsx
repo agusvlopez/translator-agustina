@@ -13,16 +13,13 @@ export function About() {
       aria-label="Sección sobre mí"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
       <div className="about-title-wrapper">
         <h2>{t('about.title')}</h2>
       </div>
       <div className="about-content-wrapper">
-        {/* <div className="about-image-wrapper">
-           <AboutImage /> 
-        </div> */}
         <motion.div className="about-image" initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, amount: 0.3 }} transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}>
           <img src="/images/agustina-about.webp" alt="Agustina Muñiz" />
         </motion.div>
