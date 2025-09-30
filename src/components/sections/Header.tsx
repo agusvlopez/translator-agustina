@@ -1,12 +1,9 @@
 import './Header.css';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { BaseButton } from '../BaseButton';
-import { getMailtoUrl } from '../../utils/mailto';
 
 export function Header () {
   const { t } = useTranslation();
-  const mailtoUrl = getMailtoUrl(t);
 
   return (
     <header className="header">

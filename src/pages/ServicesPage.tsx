@@ -1,4 +1,5 @@
 import './ServicesPage.css';
+import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { getMailtoUrl } from '../utils/mailto.ts';
 
@@ -21,8 +22,17 @@ export function ServicesPage() {
     <section className="services-page">
       <section className="header">
         <div className="header-content">
-          <h2>{t('services.title')}</h2>
-          <p>{t('services.subtitle')}</p>
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+        >{t('services.title')}</motion.h2>
+        <motion.p 
+          className="services-header-description"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
+        >{t('services.subtitle')}</motion.p>
         </div>
       </section>      
       <section className="services-section" aria-label="Sección de servicios">

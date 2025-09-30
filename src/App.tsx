@@ -7,6 +7,7 @@ import { ServicesPage } from './pages/ServicesPage.tsx';
 import { WhatsAppButton } from './components/WhatsAppButton.tsx';
 import { Footer } from './components/sections/Footer.tsx';
 import { Loader } from './components/Loader.tsx';
+import { ScrollToTop } from './components/ScrollToTop.tsx';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -33,6 +34,7 @@ function App() {
       </AnimatePresence>
       {!isLoading && (
         <BrowserRouter>
+          <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<LandingPage />} />
